@@ -1,5 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.UI.Services;
-using Support.Microservice.Settings.EmailSettings;
+﻿using OptionsPattern.API.Interfaces.Settings;
+using OptionsPattern.API.Settings.EmailSettings;
 
 namespace OptionsPattern.API.DependencyInjection;
 

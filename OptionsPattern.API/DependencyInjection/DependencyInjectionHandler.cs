@@ -7,5 +7,6 @@ public static class DependencyInjectionHandler
         services.AddCorsDependencyInjection();
         services.AddOptionsDependencyInjection(configuration);
         services.AddSettingsDependencyInjection();
+        services.AddServicesDependencyInjection();
     }
 }
