@@ -7,15 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MailKit" Version="4.4.0" />
+    <PackageReference Include="MimeKit" Version="4.4.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Controllers\" />
-    <Folder Include="Interfaces\Settings\" />
     <Folder Include="Interfaces\Services\" />
     <Folder Include="Services\" />
-    <Folder Include="Settings\EmailSettings\" />
   </ItemGroup>
 
 </Project>
