@@ -5,7 +5,7 @@ using MimeKit;
 using OptionsPattern.API.Interfaces.Settings;
 using OptionsPattern.API.Options;
 
-namespace Support.Microservice.Settings.EmailSettings;
+namespace OptionsPattern.API.Settings.EmailSettings;
 
 public sealed class EmailSender(IOptions<EmailCredentialsOptions> emailOptions) : IEmailSender
 {
