@@ -12,13 +12,11 @@
 
   <ItemGroup>
     <Folder Include="Controllers\" />
-    <Folder Include="DependencyInjection\" />
     <Folder Include="Interfaces\Settings\" />
     <Folder Include="Interfaces\Services\" />
-    <Folder Include="Constants\" />
     <Folder Include="Options\" />
-    <Folder Include="Settings\" />
     <Folder Include="Services\" />
+    <Folder Include="Settings\EmailSettings\" />
   </ItemGroup>
 
 </Project>
