@@ -12,6 +12,11 @@
 
   <ItemGroup>
     <Folder Include="Controllers\" />
+    <Folder Include="Interfaces\Settings\" />
+    <Folder Include="Interfaces\Services\" />
+    <Folder Include="Options\" />
+    <Folder Include="Services\" />
+    <Folder Include="Settings\EmailSettings\" />
   </ItemGroup>
 
 </Project>
