@@ -20,6 +20,7 @@ public sealed class EmailService(IEmailSender emailSender, IConfiguration config
             {
                 Text = "Random Email"
             },
+            To = { MailboxAddress.Parse(email) },
             From = { MailboxAddress.Parse(configuration["EmailCredentials:From"]) }
         };
 
