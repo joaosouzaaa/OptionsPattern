@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  optionspattern.api:
+    image: ${DOCKER_REGISTRY-}optionspatternapi
+    container_name: options-pattern-container
+    build:
+      context: .
+      dockerfile: OptionsPattern.API/Dockerfile
+    ports:
+      - "5020:80"
+      - "5021:443"
